@@ -1,0 +1,10 @@
+Test we can import with no errors. (Melon order isn't guaranteed.)
+
+    >>> import accounting  # doctest: +ELLIPSIS
+    ********************************************************************************
+    We sold ... melons at ... each for a total of ...
+    ******************************************
+    Salespeople generated $206266.50 in revenue.
+    Internet sales generated $108440.29 in revenue.
+    Guess there's some value to those salespeople after all.
+    ******************************************
